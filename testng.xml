@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="1" thread-count="2"
+	parallel="tests">
+	<!-- <test name="TestScenariosForFireFox" thread-count="1" parallel="methods"> 
+		<packages> <package name="testcase" /> </packages> <parameter name="browser" 
+		value="FIREFOX" /> <classes> <class name="testcase.MyFirstTestCase" /> </classes> 
+		</test> TestScenarios -->
+
+	<!-- <test name="TestScenariosForChrome" thread-count="5" parallel="methods"> 
+		<packages> <package name="testcase" /> </packages> <parameter name="browser" 
+		value="CHROME" /> <classes> <class name="testcase.MyFirstTestCase" /> </classes> 
+		</test> TestScenarios -->
+
+	<test name="TestScenariosForChrome" thread-count="6"
+		parallel="methods">
+		<!-- <packages> <package name="testcase" /> </packages> -->
+		<parameter name="browser" value="CHROME" />
+		<packages>
+			<package name="testcase.atomic" />
+		</packages>
+	</test> <!-- TestScenarios -->
+</suite> <!-- TestSuite -->

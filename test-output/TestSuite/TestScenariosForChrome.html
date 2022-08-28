@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  TestScenariosForChrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestScenariosForChrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 28 05:26:29 PST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>52 seconds (52572 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.atomic.NavigationTest.NavigateFromHomeToStoreUsingMainMenu()'><b>NavigateFromHomeToStoreUsingMainMenu</b><br>Test class: testcase.atomic.NavigationTest<br>Test method: This API test case is for Navigation from home to store using in the main menu</td>
+<td></td>
+<td>7</td>
+<td>testcase.atomic.NavigationTest@58e92c23</td></tr>
+<tr>
+<td title='testcase.atomic.AddToCartTest.addToCartFeaturedProducts()'><b>addToCartFeaturedProducts</b><br>Test class: testcase.atomic.AddToCartTest<br>Test method: This test case is to add to cart from featured products<br>Parameters: object.Product@48bef124</td>
+<td></td>
+<td>11</td>
+<td>testcase.atomic.AddToCartTest@3f4b840d</td></tr>
+<tr>
+<td title='testcase.atomic.CheckOutUsingAPITest.guestCheckoutUsingDirectBankTransfer()'><b>guestCheckoutUsingDirectBankTransfer</b><br>Test class: testcase.atomic.CheckOutUsingAPITest<br>Test method: This API test case is to check out guest only for direct bank transfer</td>
+<td></td>
+<td>21</td>
+<td>testcase.atomic.CheckOutUsingAPITest@6f9ad11c</td></tr>
+<tr>
+<td title='testcase.atomic.LoginUsingAPITest.loginDuringCheckout()'><b>loginDuringCheckout</b><br>Test class: testcase.atomic.LoginUsingAPITest<br>Test method: This API test case is to login during checkout</td>
+<td></td>
+<td>29</td>
+<td>testcase.atomic.LoginUsingAPITest@4b2d44bc</td></tr>
+<tr>
+<td title='testcase.atomic.AddToCartTest.addToCartFeaturedProducts()'><b>addToCartFeaturedProducts</b><br>Test class: testcase.atomic.AddToCartTest<br>Test method: This test case is to add to cart from featured products<br>Parameters: object.Product@4e6a00e1</td>
+<td></td>
+<td>15</td>
+<td>testcase.atomic.AddToCartTest@3f4b840d</td></tr>
+<tr>
+<td title='testcase.atomic.AddToCartTest.addToCartFromStorePage()'><b>addToCartFromStorePage</b><br>Test class: testcase.atomic.AddToCartTest<br>Test method: This test case is to add to cart from store page</td>
+<td></td>
+<td>8</td>
+<td>testcase.atomic.AddToCartTest@3f4b840d</td></tr>
+<tr>
+<td title='testcase.atomic.AddToCartTest.addToCartFeaturedProducts()'><b>addToCartFeaturedProducts</b><br>Test class: testcase.atomic.AddToCartTest<br>Test method: This test case is to add to cart from featured products<br>Parameters: object.Product@37c4ea92</td>
+<td></td>
+<td>8</td>
+<td>testcase.atomic.AddToCartTest@3f4b840d</td></tr>
+<tr>
+<td title='testcase.atomic.CheckOutUsingAPITest.LoginAndCheckoutUsingDirectBankTransfer()'><b>LoginAndCheckoutUsingDirectBankTransfer</b><br>Test class: testcase.atomic.CheckOutUsingAPITest<br>Test method: This API test case is to check out logged in only for direct bank transfer</td>
+<td></td>
+<td>30</td>
+<td>testcase.atomic.CheckOutUsingAPITest@6f9ad11c</td></tr>
+<tr>
+<td title='testcase.atomic.SearchTest.searchWithPartialMatch()'><b>searchWithPartialMatch</b><br>Test class: testcase.atomic.SearchTest<br>Test method: This test case is to search with partial match from the product</td>
+<td></td>
+<td>2</td>
+<td>testcase.atomic.SearchTest@3e7545e8</td></tr>
+<tr>
+<td title='testcase.atomic.AddToCartTest.addToCartFeaturedProducts()'><b>addToCartFeaturedProducts</b><br>Test class: testcase.atomic.AddToCartTest<br>Test method: This test case is to add to cart from featured products<br>Parameters: object.Product@1535b72</td>
+<td></td>
+<td>6</td>
+<td>testcase.atomic.AddToCartTest@3f4b840d</td></tr>
+<tr>
+<td title='testcase.atomic.AddToCartTest.addToCartFeaturedProducts()'><b>addToCartFeaturedProducts</b><br>Test class: testcase.atomic.AddToCartTest<br>Test method: This test case is to add to cart from featured products<br>Parameters: object.Product@2e68f79d</td>
+<td></td>
+<td>7</td>
+<td>testcase.atomic.AddToCartTest@3f4b840d</td></tr>
+</table><p>
+</body>
+</html>
